@@ -1,0 +1,61 @@
+html
+{
+    font-family: 'Smooch Sans', sans-serif;
+}
+body
+{
+    background-color: #FEA936;
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+
+    background-color: #626160;
+    width: auto;
+    height: 200px;
+    
+    
+}
+header div
+{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header a
+{
+    color: black;
+    font-size: 65px;
+    text-decoration: none;
+    text-shadow: 1px 2px #50504F;
+    
+
+}
+header a:visited
+{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px #50504F;
+    text-decoration: none;
+}
+header a:hover
+{
+    transition: color 0.5s ease;
+    transition: text-shadow 0.5s ease;
+    text-shadow: 2px 3px black;
+    color: #FEA936;
+    cursor: pointer;
+}
+header a:active
+{
+    color: #FEA936;
+    cursor: pointer;
+}
