@@ -45,23 +45,26 @@ function perimetro_cuadrado()
 {
     const input = document.getElementById("input_cuadrado");
     const value = input.value;
+    const Respuesta_cuadrado = document.getElementById("respuesta_cuadrado");
 
     const perimetroCuadrado = value * 4;
-    alert("el perimetro del cuadrado es: " + perimetroCuadrado + "cm");
+    Respuesta_cuadrado.innerHTML=("el perimetro del cuadrado es: " + perimetroCuadrado + "cm");
 }
 
 function area_cuadrado() 
 {
+    const Respuesta_cuadrado = document.getElementById("respuesta_cuadrado");
     const input = document.getElementById("input_cuadrado");
     const value = input.value;
 
     const areaCuadrado = value * value;
-    alert("el area del cuadrado es: " + areaCuadrado + "cm");
+    Respuesta_cuadrado.innerHTML=("el area del cuadrado es: " + areaCuadrado + "cm");
     
 }
 
 function perimetro_triangulo()
 {
+    const Respuesta_triangulo = document.getElementById("respuesta_triangulo");
     const input = document.getElementById("input_lados_t");
     const lados = parseInt(input.value);
 
@@ -69,12 +72,13 @@ function perimetro_triangulo()
     const base = parseInt(inputb.value);
 
     const perimetro_t = (lados * 2) + base;
-    alert("el perimetro del triangulo es: " + perimetro_t + "cm");
+    Respuesta_triangulo.innerHTML=("el perimetro del triangulo es: " + perimetro_t + "cm");
 
 }
 
 function area_triangulo()
 {
+    const Respuesta_triangulo = document.getElementById("respuesta_triangulo");
     const input = document.getElementById("input_lados_t");
     const lados = parseInt(input.value);
     
@@ -83,26 +87,28 @@ function area_triangulo()
     const base = parseInt(inputb.value);
 
     const area_t = ((lados - 0.5) * base)/2;
-    alert("el area del triangulo es: " + area_t + "cm");
+    Respuesta_triangulo.innerHTML=("el area del triangulo es: " + area_t + "cm");
 }
 
 function area_circulo() 
 {
+    const RespuestaCirculo = document.getElementById("respuesta_circulo");
     const input = document.getElementById("input_radio");
     const radio = input.value;
     const PI = Math.PI;
 
     const area = (radio * radio) * PI;
 
-    alert("el area del circulo es: " + area + "cm");
+    RespuestaCirculo.innerHTML=("el area del circulo es: " + area + "cm");
 }
 
 function perimetro_circulo() 
 {
+    const RespuestaCirculo = document.getElementById("respuesta_circulo");
     const input = document.getElementById("input_radio");
     const radio = input.value;
     const PI = Math.PI;
     
     const perimetro = (radio * 2) * PI;
-    alert("el perimetro del circulo es: " + perimetro + "cm");
+    RespuestaCirculo.innerHTML=("el perimetro del circulo es: " + perimetro + "cm");
 }

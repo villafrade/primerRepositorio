@@ -16,38 +16,50 @@
             <a href="./index.html">Taller de Javascript Basico</a>
         </div>
     </header>
-    <h1>primeras Figuras Geometricas</h1>
-    <p>este es el primer taller del curso practico de javascript </p>
+    <div id="fondo">
+    <h2 class="title">primeras Figuras Geometricas</h2>
+    <p class="descripcion">este es el primer taller del curso practico de javascript </p>
     <section>
      <h2>Calcula el Area y Perìmetro del Cuadrado</h2>
      <form>
         <label for= "input_cuadrado"> cuanto miden los lados de tu cuadrado</label>
-        <input id= "input_cuadrado" type="number" /> <br /> <br />
+        <input id= "input_cuadrado" type="number" /> 
+        <p id="respuesta_cuadrado" class="respuesta_c"></p>
         <button  type="button" onclick="area_cuadrado()">calcular el Area</button>
         <button  type="button" onclick="perimetro_cuadrado()">calcular el PerImetro</button>
     </form>
     </section>
-    <section>
-        <h2>Calcula el Area y Perimetro del Triangulo</h2>
+    <section >
+        <h2>Calcula el Area y Perìmetro del Triàngulo</h2>
         <form>
             <label for="input_lados_t">cuanto miden los lados de tu triangulo </label>
-            <input id="input_lados_t" type="number"> <br /><br />
+            <input id="input_lados_t" type="number"> <br> <br>
             <label for="input_base_t">cuanto mide la Base de tu triangulo </label>
-            <input id= "input_base_t" type="number"><br />
-            <br />
-            <button type="button" onclick="area_triangulo()">Calcular Area</button>
-            <button type="button" onclick="perimetro_triangulo()">Calcular Perimetro</button>
+            <input id= "input_base_t" type="number">
+            <p id="respuesta_triangulo"></p>
+            <button type="button" onclick="area_triangulo()">Calcular el Area</button>
+            <button type="button" onclick="perimetro_triangulo()">Calcular el Perimetro</button>
         </form>
     </section>
-    <section>
-        <h2>Calcula el Area y el Perimetro del Circulo </h2>
+    <section id="circulo">
+        <h2>Calcula el Area y el Perìmetro del Cìrculo </h2>
         <form>
             <label for="input_radio">cuanto mide el radio de tu circulo</label>
-            <input ide="input_radio" type="number"> <br /> <br />
-            <button type="button" onclick="area_circulo()">Calcular Area</button>
-            <button type="button" onclick="perimetro_circulo()">Calcular Perimetro</button>
+            <input id="input_radio" type="number"> 
+            <p id="respuesta_circulo"></p>
+            <button type="button" onclick="area_circulo()">Calcular el Area</button>
+            <button type="button" onclick="perimetro_circulo()">Calcular el Perimetro</button>
         </form>
     </section>
+        </div>
+        <footer>
+            <p class="contactanos">contactanos</p>
+            <a href="https://www.facebook.com/carlosalberto.villafradespinilla.5">Facebook</a>
+            <br /> 
+            <a href="https://www.instagram.com/carlos_villafradess">Instagram</a>
+            <p class="pie">este taller basico lo desarrollò Carlos Villafrades Pinilla</p>
+    
+        </footer>    
     <script src="./figuras.js"></script>
 </body>
 </html>

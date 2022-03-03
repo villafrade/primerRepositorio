@@ -59,3 +59,134 @@ header a:active
     color: #FEA936;
     cursor: pointer;
 }
+
+#fondo
+{
+    background-color: #efefef;
+    margin: 15px 350px;
+    align-content: center;
+    border-radius: 15px;
+    padding-bottom: 10px;
+
+}
+.title
+{
+    font-size: 40px;
+    text-shadow: 1px 2px #50504F;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+.descripcion
+{
+    font-size: 17px;
+    margin: 0px;
+    text-align: center;
+}
+
+section
+{
+    background-color:#B7B6B3;
+    margin: 15px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.3rem black;
+}
+section h2
+{
+    font-size: 30px;
+    margin: 0px;
+}
+section label
+{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+section button
+{
+    font-size: 17px;
+    font-family: 'Smooch Sans', sans-serif; 
+    border: 1px #50504F solid;
+    border-radius: 10px;
+    color: black;
+    background-color: #efefef;
+    margin: 10px 5px;
+}
+section button:hover
+{
+    color: #FEA936;
+    box-shadow: 0 0.1rem 0.3rem black;
+    text-shadow: 0 0.1rem 0.1rem black;
+    transition: text-shadow 0.5s ease;
+    transition: color 0.4s ease;
+    transition: box-shadow 0.3s ease;
+}
+
+section input
+{
+    width: 155px;
+    border: 2px #50504F inset;
+    border-radius: 5px;
+    background-color: #efefef;
+    font-family: 'Smooch Sans', sans-serif; 
+    font-size: 16px;
+    margin: auto 5px;
+}
+
+section p
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+footer
+{
+    width: auto;
+    height: 110px;
+    background-color: #50504F;
+    margin: 10px 0px 0px 0px;
+    
+}
+.pie
+{
+    float: right;
+    font-size: 18px;
+}
+.contactanos
+{
+    margin: 0px auto 0px 10px;
+    font-size: 25px;
+}
+footer a
+{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 2px #50504F; 
+    text-align: center;
+    margin: 0px auto 0px 10px;
+}    
+
+footer a:visited
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 2px #50504F;
+    text-decoration: none;
+
+}
+
+footer a:hover
+{
+    transition: color 0.4s ease;
+    color: #FEA936;
+    cursor: pointer; 
+}
+
+footer a:active
+{
+    color: #FEA936;
+    cursor: pointer;
+}
+
