@@ -16,19 +16,32 @@
             <a href="./index.html">Taller de Javascript Basico</a>
         </div>
     </header>
+    <div id="fondo">
     <h1>Porcentajes y Descuentos</h1>
     <p>en esta pagina vamos a aplicarle unos descuentos a unos precios de productos</p>
     <section>
         <form>
            <h2>Coloca el precio y el descuento que le quieres aplicar</h2>
-           <label for="input_precio"> Precio de Producto</label>
+           <label for="input_precio"> Precio del Producto</label>
            <input type="number" id="input_precio" /> <br /> <br />
            <label for="input_descuento"> Descuento</label>
-           <input type="number" id="input_descuento"><br > <br />
+           <input type="number" id="input_descuento"><br /> 
            <button type="button" onclick="precio_descuento()">Calcular</button>
-           <p id="respuesta"></p>
         </form>
     </section>
+    <div id="resultado">
+        <p class="R">Respuesta :</p> <br />
+        <p id="respuesta" class="respuesta"></p>
+    </div>
+    </div>
+    <footer>
+        <p class="contactanos">contactanos</p>
+        <a href="https://www.facebook.com/carlosalberto.villafradespinilla.5">Facebook</a>
+        <br /> 
+        <a href="https://www.instagram.com/carlos_villafradess">Instagram</a>
+        <p class="pie">este taller basico lo desarrollò Carlos Villafrades Pinilla</p>
+
+    </footer>    
     <script src="./descuentos.js"></script>
     
 </body>

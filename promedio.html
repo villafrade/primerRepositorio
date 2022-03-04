@@ -16,7 +16,20 @@
             <a href="./index.html">Taller de Javascript Basico</a>
         </div>
     </header>
-    <h1>Promedio</h1>
+    <section>
+        <h1>Calcular el Promedio de una lista de numeros</h1>
+        <p>agrega numero por numero a tu lista y despues calcula su promedio</p>
+        <form>
+           <label form= "input_lista"> Numeros</label>
+           <input id= "input_lista" type="number" /> 
+           <button  type="button" onclick="agregar_numero()">Agregar Numero</button>
+           <button  type="button" onclick="borrar_numero()">Borrar Numero</button>
+           <button  type="button" onclick="location.href ='./promedio.html'">Borrar todo</button>
+           <button  type="button" onclick="calcular_promedio()">Calcular Promedio</button>
+           <p id="respuesta_lista" class="respuesta_c"></p>
+           <p id="respuesta_promedio"></p>
+       </form>
+       </section>
     <script src="./promedio.js"></script>
 </body> 
 </html>

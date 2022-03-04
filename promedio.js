@@ -1,13 +1,40 @@
-function promedio_lista(lista)
+var lista=[];
+var mostrarLista = document.getElementById("respuesta_lista");
+var respuestaPromedio = document.getElementById("respuesta_promedio");
+
+function agregar_numero()
 {
-    const cantidad_lista = lista.length;
-    let suma_lista = 0;
-    for (let i = 0; i < cantidad_lista; i++)
+var p = document.getElementById("input_lista");
+var numero_agregar = parseInt(p.value);
+lista.push( numero_agregar);
+mostrarLista.innerHTML = ("tu lista es: {" + lista + "}");
+}
+
+function borrar_numero()
+{
+    lista.pop();
+    mostrarLista.innerHTML = ("tu lista es: {" + lista + "}");
+}
+function calcular_promedio()
+{
+    var suma = 0;
+
+    for (var i = 0; i < lista.length; i++)
     {
-        suma_lista = suma_lista + lista[i];
+        suma = suma + lista[i];
     }
     
-    const promedio = suma_lista / cantidad_lista; 
-    console.log("el promedio de la lista es: " + promedio);
+    var promedio = (suma / lista.length);  
+
+    if((promedio % 1) == 0 )
+    {
+        respuestaPromedio.innerHTML=("el promedio de la lista es: " + promedio);  
+    }    
+    else
+    {
+        promedioC = promedio.toFixed(2);
+        respuestaPromedio.innerHTML=("el promedio de la lista es: " + promedioC);  // se utiliza toFixed para ordenar cuantos decimales queremos que tome de una numero
+    }
 }
+
 

@@ -10,6 +10,6 @@ function precio_descuento()
     const porcentaje_final = 100 - porcentaje_descuento;
     const precio_final = (precio_original * (porcentaje_final) / 100);
     
-    Respuesta.innerHTML=("precio original: " + precio_original +  " <br />se le plica un descuento del: " 
-    + porcentaje_descuento + "%" + "<br /> precio a pagar es de: " + precio_final);
+    Respuesta.innerHTML=("precio original: " + precio_original +  "<br />se le plica un descuento del: " 
+    + porcentaje_descuento + "%" + "<br />precio a pagar es de: " + precio_final);
 }

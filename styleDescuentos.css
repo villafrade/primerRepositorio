@@ -59,3 +59,149 @@ header a:active
     color: #FEA936;
     cursor: pointer;
 }
+#fondo
+{
+    border: 2px #50504F solid;
+    border-radius: 20px;
+    margin: 15px 350px;
+    background-color: #efefef;
+    text-align: center;
+    padding-bottom: 25px;
+}
+h1
+{
+    margin: 0px;
+    font-size: 40px;
+    text-shadow: 1px 2px #50504F;
+    text-align: center;
+
+}
+#fondo p
+{
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+}
+section
+{
+    background-color:#B7B6B3;
+    margin: 15px 70px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.3rem black;
+}
+section h2
+{
+    margin: 10px auto;
+    font-size: 30px;
+}
+section label
+{
+    text-align: center;
+    font-size: 20px;
+
+}
+section input
+{
+    width: 155px;
+    border: 2px #50504F inset;
+    border-radius: 5px;
+    background-color: #efefef;
+    font-family: 'Smooch Sans', sans-serif; 
+    font-size: 16px;
+    margin: auto 5px;
+}
+
+button
+{
+    width: 90px;
+    font-size: 17px;
+    font-family: 'Smooch Sans', sans-serif; 
+    border: 2px #50504F solid;
+    border-radius: 10px;
+    color: black;
+    background-color: #efefef;
+    margin: 10px 5px;
+}
+button:hover
+{
+    color: #FEA936;
+    box-shadow: 0 0.1rem 0.3rem black;
+    text-shadow: 0 0.1rem 0.1rem black;
+    transition: text-shadow 0.5s ease;
+    transition: color 0.4s ease;
+    transition: box-shadow 0.3s ease;
+}
+#resultado
+{
+    height: 100px;;
+    background-color:#B7B6B3;
+    margin: 15px 70px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0.1rem 0.3rem black;
+    padding-left: 10px;
+}
+
+.R
+{
+    font-size: 20px;
+    float: left;
+    
+}
+.respuesta
+{
+    font-size: 20px;
+    margin: 20px auto;
+}
+footer
+{
+    width: auto;
+    height: 110px;
+    background-color: #50504F;
+    margin: 10px 0px 0px 0px;
+    
+}
+.pie
+{
+    float: right;
+    font-size: 18px;
+}
+.contactanos
+{
+    margin: 0px auto 0px 10px;
+    font-size: 25px;
+}
+footer a
+{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 1px 2px #50504F; 
+    text-align: center;
+    margin: 0px auto 0px 10px;
+}    
+
+footer a:visited
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 2px #50504F;
+    text-decoration: none;
+
+}
+
+footer a:hover
+{
+    transition: color 0.4s ease;
+    color: #FEA936;
+    cursor: pointer; 
+}
+
+footer a:active
+{
+    color: #FEA936;
+    cursor: pointer;
+}
+
