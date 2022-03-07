@@ -16,7 +16,30 @@
             <a href="./index.html">Taller de Javascript Basico</a>
         </div>
     </header>
-    <h1>Mediana</h1>
+    <section>
+        <h1>Calcular la Mediana de una lista de numeros</h1>
+        <p id="descripcion">agrega numero por numero a tu lista y despues calcula la mediana</p>
+        <form>
+           <label form= "input_lista"> Numeros</label>
+           <input id= "input_lista" type="number" /> 
+           <button  type="button" onclick="agregar_numero()">Agregar Numero</button>
+           <button  type="button" onclick="borrar_numero()">Borrar Numero</button>
+           <button  type="button" onclick="location.href ='./promedio.html'">Borrar todo</button> <br>
+           <p id="respuesta_lista">tu lista es: {}</p>
+           <button  id="mediana" type="button" onclick="calcular_mediana()">Calcular Mediana</button>
+       </form>
+       <div>
+        <p class="R">Respuesta</p> <br>
+        <p id="respuesta_mediana"></p>
+       </div>
+       </section>~
+       <footer>
+        <p class="contactanos">contactanos</p>
+        <a href="https://www.facebook.com/carlosalberto.villafradespinilla.5">Facebook</a>
+        <br /> 
+        <a href="https://www.instagram.com/carlos_villafradess">Instagram</a>
+        <p class="pie">este taller basico lo desarrollò Carlos Villafrades Pinilla</p>
+       </footer>       
     <script src="./mediana.js"></script>
 </body>
 </html>

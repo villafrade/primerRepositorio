@@ -18,18 +18,29 @@
     </header>
     <section>
         <h1>Calcular el Promedio de una lista de numeros</h1>
-        <p>agrega numero por numero a tu lista y despues calcula su promedio</p>
+        <p class="descripcion">agrega numero por numero a tu lista y despues calcula su promedio</p>
         <form>
            <label form= "input_lista"> Numeros</label>
            <input id= "input_lista" type="number" /> 
            <button  type="button" onclick="agregar_numero()">Agregar Numero</button>
            <button  type="button" onclick="borrar_numero()">Borrar Numero</button>
-           <button  type="button" onclick="location.href ='./promedio.html'">Borrar todo</button>
-           <button  type="button" onclick="calcular_promedio()">Calcular Promedio</button>
-           <p id="respuesta_lista" class="respuesta_c"></p>
-           <p id="respuesta_promedio"></p>
+           <button  type="button" onclick="location.href ='./promedio.html'">Borrar todo</button> <br>
+           <p id="respuesta_lista" >tu lista es: {}</p>
+           <button id="promedio" type="button" onclick="calcular_promedio()">Calcular Promedio</button>
        </form>
-       </section>
+       <div id="respuesta">
+        <p class="R">Respuesta :</p> <br />
+        <p id="respuesta_promedio"></p>
+       </div>
+    </section>
+    <footer>
+        <p class="contactanos">contactanos</p>
+        <a href="https://www.facebook.com/carlosalberto.villafradespinilla.5">Facebook</a>
+        <br /> 
+        <a href="https://www.instagram.com/carlos_villafradess">Instagram</a>
+        <p class="pie">este taller basico lo desarrollò Carlos Villafrades Pinilla</p>
+
+    </footer>       
     <script src="./promedio.js"></script>
 </body> 
 </html>
